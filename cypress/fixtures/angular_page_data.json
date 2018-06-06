@@ -1,0 +1,12 @@
+{
+  "name": "Ania",
+  "pageTitle": "AngularJS — Superheroic JavaScript MVW Framework",
+  "greetings": "Hello Ania!",
+  "taskName": "build an AngularJS app",
+  "newTaskName": "write some cool tests",
+  "projectName": "React",
+  "projectDescription": "A JavaScript library for building user interfaces.",
+  "newProjectName": "New project",
+  "newProjectUrl": "http://test.org",
+  "newProjectDescription": "Some cool description of the project."
+}

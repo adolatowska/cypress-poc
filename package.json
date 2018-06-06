@@ -1,0 +1,21 @@
+{
+  "name": "cypress-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "start": "cypress run --record --key 1c98616c-bd4d-4230-b4ec-b496ee78dc7c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.gft.com:aadw/cypress-poc.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

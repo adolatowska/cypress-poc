@@ -1,0 +1,16 @@
+{
+  "url": "https://angularjs.org/",
+  "nameInput": "input[ng-model=yourName]",
+  "nameHeader": "h1.ng-binding",
+  "taskCheckbox": "ul.unstyled li span",
+  "addNewTaskInput": "input[ng-model='todoList.todoText']",
+  "addNewTaskButton": "input[value='add']",
+  "tasksList": "ul.unstyled li",
+  "projectSearchInput": "input[ng-model='projectList.search']",
+  "projectsTable": ".well table",
+  "addNewProjectButton": "i.icon-plus-sign",
+  "newProjectNameInput": "input[name='name']",
+  "newProjectUrlInput": "input[type='url']",
+  "newProjectDescriptionTextArea": "textarea[name='description']",
+  "saveNewProjectButton": "button[ng-click='editProject.save()']"
+}
