@@ -1,3 +1,4 @@
 {
-  "projectId": "uvq5i2"
+  "projectId": "uvq5i2",
+  "reporter": "mocha-teamcity-reporter"
 }

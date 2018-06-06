@@ -6,12 +6,14 @@
   "dependencies": {
     "cypress": "^2.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha-teamcity-reporter": ">=2.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "open": "cypress open",
     "start": "cypress run --record --key 1c98616c-bd4d-4230-b4ec-b496ee78dc7c",
-    "cypress-ci": "cypress run"
+    "cypress-ci": "cypress run --reporter mocha-teamcity-reporter"
   },
   "repository": {
     "type": "git",
