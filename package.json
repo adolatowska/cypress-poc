@@ -12,12 +12,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "open": "cypress open",
-    "start": "cypress run --record --key 1c98616c-bd4d-4230-b4ec-b496ee78dc7c",
+    "start": "cypress run --record --key 36aa4837-516e-4a43-9967-8c3fa121bae0",
     "cypress-ci": "cypress run --reporter mocha-teamcity-reporter"
   },
   "repository": {
     "type": "git",
-    "url": "git@git.gft.com:aadw/cypress-poc.git"
+    "url": "https://github.com/adolatowska/cypress-poc"
   },
   "author": "",
   "license": "ISC"
