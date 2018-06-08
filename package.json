@@ -12,8 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "open": "cypress open",
-    "start": "cypress run --record --key 36aa4837-516e-4a43-9967-8c3fa121bae0",
-    "cypress-ci": "cypress run --reporter mocha-teamcity-reporter"
+    "start": "cypress run --record --key c9a06c7d-b651-49f6-b1fc-81e3ea83e453",
+    "cypress-ci": "cypress run --reporter mocha-teamcity-reporter --record --key c9a06c7d-b651-49f6-b1fc-81e3ea83e453"
   },
   "repository": {
     "type": "git",
