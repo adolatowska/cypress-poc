@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: cypress-dep
+  labels:
+    #Project ID
+    app: adolatowskatestproject
+spec:
+  #Run two instances of our application
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: adolatowskatestproject
+    spec:
+      #Container details
+      containers:
+        - name: cypress-tests
+          image: gcr.io/adolatowskatestproject/cypress-tests:1.0
+          imagePullPolicy: Always
+          #Ports to expose
+          ports:
+          - containerPort: 8000
